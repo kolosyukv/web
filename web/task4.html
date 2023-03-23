@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Registration</h1>
+    <form>
+        <div>
+            <input type="checkbox" id="theme" name="theme">
+            <label for="theme">Dark theme</label>
+        </div>
+        <div id="name-container">
+            <label for="name-input">Name:</label>
+            <input type="text" id="name-input" placeholder="Name"/>
+        </div>
+        <div>
+            <label for="password-input">Password:</label>
+            <input type="password" id="password-input"/>
+        </div>
+        <div>
+            <label for="user-type">Select user type:</label>
+            <select id="user-type">
+                <option value="Admin">Admin</option>
+                <option value="Moderator">Moderator</option>
+                <option value="User">User</option>
+            </select>
+        </div>
+        <div>
+        <input type="submit" id="submit" value="Submit form"/>
+        </div>
+    </form>
+</div>
+<script type="text/javascript">
+    const body = document.getElementsByTagName("body")[0];
+    let a1 = false;
+    let a2 = false;
+    const button = document.getElementById("submit");
+    button.onclick = function () {
+        if (a1 === false || a2 === false) {
+            button.setCustomValidity("Fill in the forms");
+        } else {
+            button.setCustomValidity("");
+        }
+    }
+    const name = document.querySelector("#name-input");
+    let inputValue;
+
+    name.addEventListener("blur", (ev)=> inputValue = ev.target.value);
+    name.onblur = function() {
+        if (!inputValue || inputValue.length < 4) {
+            name.className = "input-error"
+            name.setCustomValidity("Input Error");
+        }
+        else
+        {
+            name.className = "input-ok"
+            a1 = true;
+            name.setCustomValidity("");
+        }
+    }
+
+    name.addEventListener("focus", ()=> {
+        name.className = "input-ok"
+    })
+
+    const pass = document.querySelector("#password-input");
+    let passValue;
+
+    pass.addEventListener("blur", (ev)=> passValue = ev.target.value);
+    pass.onblur = function() {
+        if (!passValue || passValue.length < 4) {
+            pass.className = "input-error"
+            pass.setCustomValidity("Input Error");
+        }
+        else
+        {
+            pass.className = "input-ok"
+            a2 = true;
+            pass.setCustomValidity("");
+        }
+    }
+
+    pass.addEventListener("focus", ()=> {
+        pass.className = "input-ok"
+    })
+
+    const dark = document.getElementById("theme");
+    dark.addEventListener('change', () => {
+        if (dark.checked) {
+            body.style.backgroundColor = '#151616c';
+        } else {
+            body.style.backgroundColor = 'lightblue';
+        }
+    });
+
+</script>
+</body>
+</html>
