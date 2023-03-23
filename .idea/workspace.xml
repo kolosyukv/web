@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2633766-e489-48a3-8a0a-15f4a8ce2557" name="Changes" comment="Task 2 - html" />
+    <list default="true" id="d2633766-e489-48a3-8a0a-15f4a8ce2557" name="Changes" comment="Task 4 - html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +59,7 @@
       <workItem from="1679496966551" duration="166000" />
       <workItem from="1679497159575" duration="6383000" />
       <workItem from="1679558389270" duration="4199000" />
-      <workItem from="1679587511775" duration="4430000" />
+      <workItem from="1679587511775" duration="5070000" />
     </task>
     <task id="LOCAL-00001" summary="Task 2 - html">
       <created>1678119161834</created>
@@ -75,7 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678120427163</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Task 4 - html">
+      <created>1679592268822</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679592268822</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Task 4 - html">
+      <created>1679592365460</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679592365460</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task 2 - html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2 - html" />
+    <MESSAGE value="Task 4 - html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 4 - html" />
   </component>
 </project>
