@@ -4,6 +4,10 @@
     <list default="true" id="d2633766-e489-48a3-8a0a-15f4a8ce2557" name="Changes" comment="Task 4 - html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task4.html" beforeDir="false" afterPath="$PROJECT_DIR$/task4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/task4.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +60,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kolos\WebstormProjects\web" />
+      <recent name="C:\Users\kolos\WebstormProjects\web\static" />
+      <recent name="C:\Users\kolos\WebstormProjects\web\styles" />
+      <recent name="C:\Users\kolos\WebstormProjects\web\web\styles" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +84,7 @@
       <workItem from="1679558389270" duration="4199000" />
       <workItem from="1679587511775" duration="5860000" />
       <workItem from="1680112341199" duration="643000" />
-      <workItem from="1680185622687" duration="276000" />
+      <workItem from="1680185622687" duration="10486000" />
     </task>
     <task id="LOCAL-00001" summary="Task 2 - html">
       <created>1678119161834</created>
@@ -130,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680185905655</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Task 4 - html">
+      <created>1680185926264</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680185926264</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Task 4 - html">
+      <created>1680190550471</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680190550471</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

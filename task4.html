@@ -8,18 +8,18 @@
 <body>
 <div class="container">
     <h1>Registration</h1>
-    <form>
+    <form action="/form" method="post">
         <div>
             <input type="checkbox" id="theme" name="theme">
             <label for="theme">Dark theme</label>
         </div>
         <div id="name-container">
             <label for="name-input">Name:</label>
-            <input type="text" id="name-input" placeholder="Name"/>
+            <input type="text" id="name-input" placeholder="Name" name="username">
         </div>
         <div>
             <label for="password-input">Password:</label>
-            <input type="password" id="password-input"/>
+            <input type="password" id="password-input" name="password">
         </div>
         <div>
             <label for="user-type">Select user type:</label>
