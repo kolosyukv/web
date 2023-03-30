@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2633766-e489-48a3-8a0a-15f4a8ce2557" name="Changes" comment="Task 4 - html" />
+    <list default="true" id="d2633766-e489-48a3-8a0a-15f4a8ce2557" name="Changes" comment="Task 4 - html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4.html" beforeDir="false" afterPath="$PROJECT_DIR$/task4.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +24,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="40b77144-9648-41de-ac90-f05a5a7e6324" />
+        <option name="url" value="https://github.com/kolosyukv/web.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,7 +70,8 @@
       <workItem from="1679496966551" duration="166000" />
       <workItem from="1679497159575" duration="6383000" />
       <workItem from="1679558389270" duration="4199000" />
-      <workItem from="1679587511775" duration="5368000" />
+      <workItem from="1679587511775" duration="5860000" />
+      <workItem from="1680112341199" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="Task 2 - html">
       <created>1678119161834</created>
@@ -103,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679592908719</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Task 4 - html">
+      <created>1679593193536</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679593193536</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
