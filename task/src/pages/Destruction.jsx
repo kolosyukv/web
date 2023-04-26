@@ -6,7 +6,7 @@ export const Destruction = ()=>{
         <Header/>
         <Card/>
         <Card/>
-        <Card/>
+        <Card isDangerous={true}/>
         Destruction page
     </div>
 }

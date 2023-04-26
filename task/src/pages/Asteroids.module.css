@@ -1,0 +1,29 @@
+.showDangerousOnly
+{
+width: 296px;
+height: 20px;
+left: 234px;
+top: 184px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+}
+
+.distanceMode
+{
+    position: relative;
+    width: 379px;
+    height: 20px;
+    left: 748px;
+    top: -20px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
