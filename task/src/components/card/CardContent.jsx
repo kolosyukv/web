@@ -17,7 +17,7 @@ export const CardContent = (props) =>{
 
 const DistanceChoice = (DistanceMode, distance) => {
     if (DistanceMode)
-        return `${distance} км`
+        return `${distance.kilometers} км`
     else
-        return `${(distance/384467)} Лун`
+        return `${distance.lunar} Лун`
 }
