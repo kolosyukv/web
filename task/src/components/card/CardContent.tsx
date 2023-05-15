@@ -1,6 +1,18 @@
+import {AsteroidsContext} from "../asteroids-context/AsteroidsContext";
+import {useContext} from "react";
 
+type CardContentProps = {
+    name: string;
+    date: string;
+    distance: {
+        kilometers: number;
+        lunar: number;
+    }
+    size: number;
+    DistanceMode: boolean
+}
 
-export const CardContent = (props) =>{
+export const CardContent = (props: CardContentProps) =>{
 
     const {name, date, distance, size, DistanceMode} = props;
 
