@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2633766-e489-48a3-8a0a-15f4a8ce2557" name="Changes" comment="Task 10">
+    <list default="true" id="d2633766-e489-48a3-8a0a-15f4a8ce2557" name="Changes" comment="Task 10-11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/task/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/task/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/components/card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/components/card/Card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/components/card/CardAction.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/components/card/CardAction.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/components/card/CardContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/components/card/CardContent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/pages/Asteroids.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/pages/Asteroids.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/pages/Destruction.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/pages/Destruction.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/components/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/pages/Asteroids.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/pages/Asteroids.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +136,9 @@
       <workItem from="1683745656637" duration="119000" />
       <workItem from="1684076725957" duration="6369000" />
       <workItem from="1684157610777" duration="11097000" />
-      <workItem from="1684171532923" duration="4159000" />
+      <workItem from="1684171532923" duration="4320000" />
+      <workItem from="1684942314993" duration="5082000" />
+      <workItem from="1685022308380" duration="4662000" />
     </task>
     <task id="LOCAL-00001" summary="Task 2 - html">
       <created>1678119161834</created>
@@ -271,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683745431129</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Task 10-11">
+      <created>1684177657219</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684177657219</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +311,7 @@
     <MESSAGE value="Task 7-8" />
     <MESSAGE value="Task 7-8-9" />
     <MESSAGE value="Task 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 10" />
+    <MESSAGE value="Task 10-11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 10-11" />
   </component>
 </project>

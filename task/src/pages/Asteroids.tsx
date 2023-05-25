@@ -3,6 +3,7 @@ import styles from './Asteroids.module.css'
 import { Card } from '../components/card/Card'
 import {useContext, useEffect, useState} from 'react'
 import {AsteroidsContext} from "../components/asteroids-context/AsteroidsContext";
+import {getUserKey} from "../Utilits/getUserKey";
 
 
 export const Asteroids = () => {
@@ -19,10 +20,10 @@ export const Asteroids = () => {
     }[]>([]);
 
 
-
     useEffect(() => {
+// eslint-disable-next-line no-unused-vars
         const result = fetch(
-            'https://api.nasa.gov/neo/rest/v1/feed?api_key=DEMO_KEY'
+            `https://api.nasa.gov/neo/rest/v1/feed?api_key=${getUserKey()}`
         )
             .then((res) => {
                 return res.json()
@@ -59,6 +60,7 @@ export const Asteroids = () => {
             })
             .catch((err) => {
                 console.log(err)
+                setAsteroids(generateAsteroids())
             })
     }, [])
 
@@ -68,9 +70,7 @@ export const Asteroids = () => {
         <div>
             <Header/>
             <div
-                className={styles.showDangerousOnly}
-
-            >
+                className={styles.showDangerousOnly}>
                 <input
                     type="checkbox"
                     value={onlyDangerous as unknown as string}
