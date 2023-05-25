@@ -1,0 +1,41 @@
+.greenContainer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: Arial;
+    box-sizing: border-box;
+
+    width: 920px;
+    height: 200px;
+    left: 206px;
+    top: 444px;
+
+    /* Gradient Positive 2 */
+    background: linear-gradient(90deg, #CFF37D 0%, #7DE88C 100%);
+
+    /* Black */
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.redContainer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: Arial;
+    box-sizing: border-box;
+
+    width: 920px;
+    height: 200px;
+    left: 206px;
+    top: 876px;
+
+    /* Gradient Negative 1 */
+    background: linear-gradient(90deg, #FFB199 0%, #FF0844 100%);
+
+    /* Black */
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
